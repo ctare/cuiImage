@@ -2,6 +2,7 @@
 * 画像をcuiに出力します。
 * 画像は50*50pxにリサイズされます。
 
+
 ## やってること
 * Groovy
     - 画像読み込み →  色マップ作成(16進数)
@@ -11,6 +12,10 @@
     - .paletteを吐き出します
 * zsh
     - paletteファイルから画像を出力します
+
+
+## 参考画像
+* ![sample](https://raw.github.com/wiki/CsTarepanda/cuiImage/vim.png)
 
 ## 必要環境
 * Groovy
