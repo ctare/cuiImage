@@ -17,6 +17,13 @@
 ## 参考画像
 * ![sample](https://raw.githubusercontent.com/CsTarepanda/cuiImage/master/vim.png)
 
+
+## 使い方
+1. どうにかしてprocessing.jarにクラスパスを通します。
+2. ~/Desktop/ に画像を置きます。(名前はload.jpg)
+3. cuiImage/ に入って make all img=name nameは好きな名前
+
+
 ## 必要環境
 * Groovy
 * processing
