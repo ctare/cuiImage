@@ -15,7 +15,7 @@ new PApplet(){
     for(i in pixels){
       colp += "${Integer.toHexString((int)red(i)).padLeft(2, "0")}${Integer.toHexString((int)green(i)).padLeft(2, "0")}${Integer.toHexString((int)blue(i)).padLeft(2, "0")}\n"
     }
-    // new File("colp").text = colp
+    new File("colp").text = colp
     exit()
   }
 }.runSketch()
