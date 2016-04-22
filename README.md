@@ -19,7 +19,8 @@
 
 
 ## 使い方
-1. どうにかしてprocessing.jarにクラスパスを通します。
+1. どうにかしてprocessingのcore.jarにクラスパスを通します。
+    - CLASSPATH+=~/processing-3.0.1/core/library/core.jar
 2. ~/Desktop/ に画像を置きます。(名前はload.jpg)
 3. cuiImage/ に入って make all img=name nameは好きな名前
 
