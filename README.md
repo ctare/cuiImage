@@ -15,7 +15,7 @@
 
 
 ## 参考画像
-* ![sample](https://raw.github.com/wiki/CsTarepanda/cuiImage/vim.png)
+* ![sample](https://raw.githubusercontent.com/CsTarepanda/cuiImage/master/vim.png)
 
 ## 必要環境
 * Groovy
