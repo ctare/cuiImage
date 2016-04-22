@@ -1,5 +1,6 @@
 #!/bin/zsh
-SIDE=50
+SETTINGS=($(cat settings))
+SIDE=$SETTINGS[2]
 COLP=($(cat "$1"))
 COUNT=1
 RESULT=""
