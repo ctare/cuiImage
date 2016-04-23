@@ -1,5 +1,5 @@
 load:
-	mv ~/Desktop/load.jpg ./
+	set -- $$(cat settings) && mv ~/Desktop/load.$$1 ./
 palette:
 	groovy Main.groovy
 	python3 tocol.py `cat colp` >> $(img).palette
