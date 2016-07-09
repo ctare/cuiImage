@@ -26,7 +26,6 @@ def mkcl(num):
 def mkclb(num):
     return "[48;5;{}m".format(num)
 
-
 if __name__ == "__main__":
     import sys
     back = False
