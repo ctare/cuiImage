@@ -9,3 +9,4 @@
     > python3 cuiImage.py "https://avatars3.githubusercontent.com/u/12852948?v=3&s=460" 50
 
 * sizeは指定しない場合、元画像のサイズになります。 
+* sample -> $ cat saple.txt
