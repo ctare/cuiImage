@@ -1,6 +1,6 @@
 #/usr/bin/python3
 import io
-import urllib.request as req
+import requests
 from PIL import Image
 import numpy as np
 from matplotlib import pylab as plt
@@ -45,7 +45,7 @@ def resize(img, to_size):
 
 
 def load_img(url):
-    return Image.open(io.BytesIO(req.urlopen(url).read()))
+    return Image.open(io.BytesIO(requests.get(url).content))
 
 
 def create_data(img, size=None):
